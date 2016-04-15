@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'BlackoutInverse';
+  src: url("../fonts/Blackout-2am.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'WC';
+  src: url("../fonts/WCManoNegraBta.otf");
+  font-weight: normal;
+  font-style: normal; }
+body main section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+  body main section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%; }
+    body main section section p {
+      padding: 0 5%; }
+body main h1 {
+  font-family: 'WC';
+  font-size: 7em; }
+body main h2 {
+  font-family: 'BlackoutInverse';
+  font-size: 5em; }
+body main .blue {
+  background-color: #003366;
+  color: #F8F8F8; }
+body main .white {
+  background-color: #F8F8F8;
+  color: #111111; }
+body main .black {
+  background-color: #111111;
+  color: #F8F8F8; }
+  body main .black h2 {
+    color: #003366; }
+
+/*# sourceMappingURL=style.css.map */
