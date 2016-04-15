@@ -1,0 +1,5 @@
+*.txt
+*~
+css/.sass-cache
+hue/*
+cv/*
