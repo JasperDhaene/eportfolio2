@@ -23,21 +23,33 @@ html {
         font-size: 14em;
         display: inline; }
       html body main div ul {
-        display: inline;
+        display: inline-block;
         list-style: none;
-        color: #FF312E;
-        font-size: 1em; }
-        html body main div ul li.active {
+        color: #ff4a48;
+        font-size: 2em;
+        float: right;
+        text-align: right;
+        padding-right: 10px; }
+        html body main div ul li a, html body main div ul li a:hover, html body main div ul li a:visited {
+          color: #ff4a48;
+          text-decoration: none; }
+        html body main div ul li.active a {
+          color: #e10300; }
+        html body main div ul li:hover {
           text-decoration: line-through; }
       html body main div p {
         font-size: 2em; }
-      html body main div#page1 {
+      html body main div#home {
         background-image: url(../images/test/tiles.jpeg);
         background-repeat: no-repeat;
         background-size: cover; }
-      html body main div#page2 {
+        html body main div#home ul {
+          float: none;
+          text-align: left;
+          font-size: 3em; }
+      html body main div#about {
         background-color: #BFCDCD; }
-      html body main div#page3 {
+      html body main div#italent {
         background-color: #A4B6C0; }
 
 /*# sourceMappingURL=style.css.map */
