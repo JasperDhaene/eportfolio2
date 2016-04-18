@@ -8,38 +8,36 @@
   src: url("../fonts/WCManoNegraBta.otf");
   font-weight: normal;
   font-style: normal; }
-body main section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 500px;
-  overflow: hidden; }
-  body main section section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 5%; }
-    body main section section p {
-      padding: 0 5%; }
-body main h1 {
-  font-family: 'WC';
-  font-size: 7em; }
-body main h2 {
-  font-family: 'BlackoutInverse';
-  font-size: 5em; }
-body main .blue {
-  background-color: #003366;
-  color: #F8F8F8; }
-body main .white {
-  background-color: #F8F8F8;
-  color: #111111; }
-body main .black {
-  background-color: #111111;
-  color: #F8F8F8; }
-  body main .black h2 {
-    color: #003366; }
+html {
+  height: 100%; }
+  html body {
+    height: 100%; }
+    html body main div {
+      height: 100vh;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      color: #F8F8F8; }
+      html body main div h1 {
+        font-family: 'WC';
+        font-size: 22em; }
+      html body main div h2 {
+        font-size: 14em;
+        display: inline; }
+      html body main div ul {
+        display: inline;
+        list-style: none;
+        color: #FF312E;
+        font-size: 1em; }
+        html body main div ul li.active {
+          text-decoration: line-through; }
+      html body main div p {
+        font-size: 2em; }
+      html body main div#page1 {
+        background-image: url(../images/test/tiles.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover; }
+      html body main div#page2 {
+        background-color: #BFCDCD; }
+      html body main div#page3 {
+        background-color: #A4B6C0; }
 
 /*# sourceMappingURL=style.css.map */

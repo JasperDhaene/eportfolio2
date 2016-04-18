@@ -1,59 +1,58 @@
 $black: #111111;
 $white: #F8F8F8;
 $blue: #003366; //almost TARDIS blue, but websafe. Real thing: 003B6F
-
-@import 'fonts'; 
-
-body {
-    
-    main {
-        
-        section {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 500px;
-            overflow: hidden;
-            
-            section {
-                display: flex;
-                flex-direction: column;
+$red: #FF312E;
+$pastel-green: #BFCDCD;
+$pastel-blue: #A4B6C0;
+@import 'fonts';
+html {
+    height: 100%;
+    body {
+        height: 100%;
+        main {
+            div {
+                height: 100vh;
                 
-                justify-content: space-around;
-                p{
-                    padding: 0 5%;
+                
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                color: $white;
+                h1 {
+                    font-family: 'WC';
+                    font-size: 22em; //20
                 }
-                padding: 5%;
-            }
-        }
-        
-        
-        h1{
-            font-family: 'WC';
-            font-size: 7em;
-        }
-        
-        h2{
-            font-family: 'BlackoutInverse';
-            font-size: 5em;
-        }
-        
-        .blue {
-            background-color: $blue;
-            color: $white;
-        }
-        .white {
-            background-color: $white;
-            color: $black;
-        }
-        .black {
-            background-color: $black;
-            color: $white;
-            h2{
-                color: $blue;
+                h2 {
+                    //font-family: 'BlackoutInverse';
+                    font-size: 14em;
+                    display: inline;
+                }
+                ul {
+                    display: inline;
+                    list-style: none;
+                    color: $red;
+                    font-size: 1em;
+                    
+                    li.active{
+                        text-decoration: line-through;
+                    }
+                }
+                
+                p {
+                    font-size: 2em;
+                }
+                
+                &#page1{
+                    background-image: url(../images/test/tiles.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+                
+                &#page2{
+                    background-color: $pastel-green;
+                }
+                &#page3{
+                    background-color: $pastel-blue;
+                }
+                
             }
         }
     }
