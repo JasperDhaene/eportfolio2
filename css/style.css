@@ -12,17 +12,18 @@ html {
   height: 100%; }
   html body {
     height: 100%; }
-    html body main div {
+    html body section {
       height: 100vh;
+      overflow: hidden;
       font-family: 'Yanone Kaffeesatz', sans-serif;
       color: #F8F8F8; }
-      html body main div h1 {
+      html body section h1 {
         font-family: 'WC';
         font-size: 22em; }
-      html body main div h2 {
+      html body section h2 {
         font-size: 14em;
         display: inline; }
-      html body main div ul {
+      html body section ul {
         display: inline-block;
         list-style: none;
         color: #ff4a48;
@@ -30,26 +31,34 @@ html {
         float: right;
         text-align: right;
         padding-right: 10px; }
-        html body main div ul li a, html body main div ul li a:hover, html body main div ul li a:visited {
+        html body section ul li a, html body section ul li a:hover, html body section ul li a:visited {
           color: #ff4a48;
           text-decoration: none; }
-        html body main div ul li.active a {
+        html body section ul li.active a {
           color: #e10300; }
-        html body main div ul li:hover {
+        html body section ul li:hover {
           text-decoration: line-through; }
-      html body main div p {
+      html body section p {
         font-size: 2em; }
-      html body main div#home {
+      html body section#home {
         background-image: url(../images/test/tiles.jpeg);
         background-repeat: no-repeat;
         background-size: cover; }
-        html body main div#home ul {
+        html body section#home ul {
           float: none;
           text-align: left;
           font-size: 3em; }
-      html body main div#about {
+      html body section#about {
         background-color: #BFCDCD; }
-      html body main div#italent {
+      html body section#italent {
+        background-color: #A4B6C0; }
+      html body section#CV {
+        background-color: #D5B986; }
+      html body section#portfolio {
+        background-color: #754E49; }
+      html body section#hobbies {
+        background-color: #808789; }
+      html body section#links {
         background-color: #A4B6C0; }
 
 /*# sourceMappingURL=style.css.map */

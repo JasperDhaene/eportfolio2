@@ -16,10 +16,10 @@ html {
     height: 100%;
     body {
         height: 100%;
-        main {
-            div {
+        
+            section {
                 height: 100vh;
-                
+                overflow: hidden;
                 
                 font-family: 'Yanone Kaffeesatz', sans-serif;
                 color: $white;
@@ -82,7 +82,20 @@ html {
                     background-color: $pastel-blue;
                 }
                 
+                &#CV{
+                    background-color: $pastel-yellow;
+                }
+                &#portfolio{
+                    background-color: $pastel-brown;
+                }
+                &#hobbies{
+                    background-color: $pastel-black;
+                }
+                &#links{
+                    background-color: $pastel-blue;
+                }
+                
             }
         }
-    }
+    
 }
