@@ -12,14 +12,16 @@ $pastel-brown: #754E49;
 $pastel-black: #808789;
 
 @import 'fonts';
+@import 'tables';
+
 html {
     height: 100%;
     body {
         height: 100%;
         
             section {
-                height: 100vh;
-                overflow: hidden;
+                min-height: 100vh;
+                //overflow: hidden;
                 
                 font-family: 'Yanone Kaffeesatz', sans-serif;
                 color: $white;

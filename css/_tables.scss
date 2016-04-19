@@ -1,0 +1,21 @@
+html {
+    body {
+        section {
+            table{
+                thead{
+                    font-size: 5em;
+                }
+                
+                tbody{
+                    tr.CV_head {
+                        font-size: 3em;
+                    }
+                    
+                    tr.CV_sub {
+                        font-size: 2em;
+                    }
+                }
+            }                 
+        }
+    }
+}

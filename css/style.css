@@ -8,13 +8,19 @@
   src: url("../fonts/WCManoNegraBta.otf");
   font-weight: normal;
   font-style: normal; }
+html body section table thead {
+  font-size: 5em; }
+html body section table tbody tr.CV_head {
+  font-size: 3em; }
+html body section table tbody tr.CV_sub {
+  font-size: 2em; }
+
 html {
   height: 100%; }
   html body {
     height: 100%; }
     html body section {
-      height: 100vh;
-      overflow: hidden;
+      min-height: 100vh;
       font-family: 'Yanone Kaffeesatz', sans-serif;
       color: #F8F8F8; }
       html body section h1 {
