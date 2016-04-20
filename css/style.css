@@ -9,9 +9,12 @@
   font-weight: normal;
   font-style: normal; }
 html body section table thead {
-  font-size: 5em; }
+  font-size: 5em;
+  color: #ff4a48; }
 html body section table tbody tr.CV_head {
   font-size: 3em; }
+  html body section table tbody tr.CV_head td:first-child {
+    color: #fff247; }
 html body section table tbody tr.CV_sub {
   font-size: 2em; }
 
@@ -19,63 +22,80 @@ html {
   height: 100%; }
   html body {
     height: 100%; }
-    html body section {
+    html body section.page {
+      min-height: 100vh;
       font-family: 'Yanone Kaffeesatz', sans-serif;
       color: #F8F8F8; }
-      html body section.page {
-        min-height: 100vh; }
-      html body section a, html body section a:visited {
+      html body section.page a, html body section.page a:visited {
         color: #F8F8F8;
         text-decoration: none;
         margin: 0 10px; }
-      html body section a:hover {
+      html body section.page a:hover {
         color: #ff4a48; }
-      html body section h1 {
+      html body section.page h1 {
         font-family: 'WC';
         font-size: 22em; }
-      html body section h2 {
+      html body section.page h2 {
         font-size: 14em;
         display: inline; }
-      html body section ul {
-        display: inline-block;
-        list-style: none;
+      html body section.page h3 {
+        font-size: 5em;
         color: #ff4a48;
-        font-size: 2em;
-        float: right;
-        text-align: right;
-        padding-right: 10px; }
-        html body section ul li a, html body section ul li a:hover, html body section ul li a:visited {
+        text-decoration: line-through; }
+      html body section.page h4 {
+        font-size: 4em; }
+      html body section.page h5 {
+        font-size: 3em; }
+      html body section.page p {
+        margin: 20px 0 0 0;
+        font-size: 2em; }
+      html body section.page ul {
+        padding: 0 0 0 30px;
+        list-style: none;
+        font-size: 1.5em; }
+        html body section.page ul strong {
+          color: #fff247;
+          font-size: 1.5em; }
+      html body section.page nav {
+        display: inline-block;
+        float: right; }
+        html body section.page nav ul {
+          list-style: none;
           color: #ff4a48;
-          text-decoration: none; }
-        html body section ul li.active a {
-          color: #e10300; }
-        html body section ul li:hover {
-          text-decoration: line-through; }
-      html body section div {
+          font-size: 2em;
+          text-align: right;
+          padding-right: 10px; }
+          html body section.page nav ul li a, html body section.page nav ul li a:hover, html body section.page nav ul li a:visited {
+            color: #ff4a48;
+            text-decoration: none; }
+          html body section.page nav ul li.active a {
+            color: #e10300; }
+          html body section.page nav ul li:hover {
+            text-decoration: line-through; }
+      html body section.page div {
         position: absolute;
         bottom: 10px;
         right: 20px; }
-      html body section p {
-        font-size: 2em; }
-      html body section#home {
+      html body section.page#home {
         background-image: url(../images/test/tiles.jpeg);
         background-repeat: no-repeat;
         background-size: cover; }
-        html body section#home ul {
-          float: none;
-          text-align: left;
-          font-size: 3em; }
-      html body section#about {
+        html body section.page#home nav {
+          float: none; }
+          html body section.page#home nav ul {
+            text-align: left;
+            font-size: 3em; }
+      html body section.page#about {
         background-color: #BFCDCD; }
-      html body section#italent {
+      html body section.page#italent {
         background-color: #A4B6C0; }
-      html body section#CV {
-        background-color: #D5B986; }
-      html body section#portfolio {
-        background-color: #754E49; }
-      html body section#hobbies {
+      html body section.page#CV {
         background-color: #808789; }
-      html body section#links {
+      html body section.page#portfolio {
+        background-color: #754E49; }
+      html body section.page#hobbies {
+        background-color: #D5B986; }
+      html body section.page#links {
         background-color: #A4B6C0; }
 
 /*# sourceMappingURL=style.css.map */
