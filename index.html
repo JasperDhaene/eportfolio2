@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <script src="scripts/jquery-2.2.3.min.js"></script>
     <script src="scripts/jquery.panelSnap.js"></script>
+
+    <!--
     <script>
         jQuery(function ($) {
             $('body').panelSnap();
         });
     </script>
-
+    !-->
 </head>
 
 <body>
 
-    <section id="home">
+    <section id="home" class="page">
         <h1>Jasper D'haene</h1>
         <h2>Student Applied Computer Science</h2>
         <ul>
@@ -31,13 +33,18 @@
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#links">Links</a></li>
         </ul>
+        <div>
+            <a href="https://www.facebook.com/jasper.dhaene"><i class="fa fa-facebook fa-3x"></i></a>
+            <a href="https://github.com/JasperDhaene"><i class="fa fa-github-alt fa-3x"></i></a>
+            <a href="mailto:jasper.dhaene@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+        </div>
     </section>
 
     <!-- 
                     ABOUT
         !-->
 
-    <section id="about">
+    <section id="about" class="page">
 
         <h2>aBOUT</h2>
         <section>
@@ -63,7 +70,7 @@
                     ITALENT
         !-->
 
-    <section id="italent">
+    <section id="italent" class="page">
         <h2>iTALENT</h2>
         <section>
             <h3>MBTI</h3>
@@ -150,7 +157,7 @@
                     CV
         !-->
 
-    <section id="CV">
+    <section id="CV" class="page">
         <h2>cURRICULUM VITAE</h2>
         <section>
             <table>
@@ -272,25 +279,150 @@
                     PORTFOLIO
         !-->
 
-    <section id="portfolio">
+    <section id="portfolio" class="page">
         <h2>pORTFOLIO</h2>
-        <section>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus tellus ac odio tristique finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et vehicula urna. Fusce sit amet tristique dui, nec dignissim nulla. Pellentesque sagittis malesuada tellus, vitae molestie ligula. Sed lorem velit, malesuada eu efficitur eget, cursus at enim. Nunc euismod viverra diam, et efficitur dolor volutpat vel.
-            </p>
-            <p>
-                Sed sed fermentum lacus. Ut enim diam, porttitor a nulla vel, lobortis porttitor tortor. Nam vestibulum tempor lacinia. Cras vulputate ultricies fermentum. Aenean egestas faucibus lectus, in sagittis tellus accumsan id. Cras vitae venenatis turpis. Proin eget lacus ut purus efficitur hendrerit ac a dui. Phasellus posuere lacus augue, id ultrices metus eleifend in. Aliquam felis lectus, scelerisque vitae dictum sed, viverra non quam. Integer euismod finibus venenatis. Etiam tristique, ipsum ac aliquam dictum, felis risus vestibulum arcu, non laoreet erat libero quis odio.
-            </p>
-            <p>
-                Ut facilisis sem vel sollicitudin congue. Curabitur et orci ex. Aliquam sed nibh eget ligula dapibus imperdiet. Quisque tincidunt auctor purus, nec vestibulum dolor venenatis sit amet. Fusce massa mi, interdum at turpis id, iaculis porttitor felis. Morbi suscipit, turpis dapibus pellentesque scelerisque, libero justo mattis massa, eget consequat mauris est et enim. Proin turpis nisl, faucibus vitae elit quis, venenatis vehicula diam. Quisque pharetra ac leo a malesuada. Proin quis risus aliquet, posuere lorem nec, iaculis metus. Fusce non eros justo. In commodo, ipsum eget commodo consequat, elit tortor consectetur nunc, vitae tempus erat ligula vitae neque. Nulla gravida eget nisl vitae hendrerit. Quisque sit amet venenatis turpis. Aenean felis nulla, commodo sed elit at, auctor pretium arcu. In mi justo, elementum et purus vitae, scelerisque bibendum diam.
-            </p>
-            <p>
-                Ut porttitor elementum ex, in vehicula diam fringilla vel. Sed et tincidunt erat. Sed id metus sed sem pulvinar sodales quis ac nunc. Pellentesque et tincidunt dui. Nam rutrum aliquam tortor, id tempus diam scelerisque non. Etiam vulputate accumsan eros, porta condimentum ante. Mauris at dolor diam. Aenean dui purus, eleifend in erat accumsan, laoreet pharetra erat. Quisque sed leo quis erat tempus consectetur in quis urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis, quam vel mattis tincidunt, tellus sem tristique tellus, ac semper tortor leo et mauris. Cras mollis nunc est, et venenatis lectus finibus non. Ut non elementum nisl.
-            </p>
-            <p>
-                Vestibulum in erat vitae erat eleifend dictum. Sed gravida scelerisque fringilla. Aliquam erat volutpat. Cras elit nisl, efficitur id iaculis id, porttitor at lectus. Praesent gravida dapibus erat, in blandit massa mollis sed. Proin a enim placerat, lacinia ante vel, ultricies lectus. Nulla facilisi. Donec et neque congue ligula euismod vehicula vel sed arcu. Suspendisse potenti. Vivamus posuere scelerisque euismod.
-            </p>
+        <h3>· 2015 ·</h3>
+
+        <section class="project">
+
+            <picture>
+                <source srcset="../images/webapps.png" media="(min-width: 1367px)">
+                <source srcset="../images/webapps_small.png">
+                <img src="../images/webapps_small.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Website design
+                </h4>
+                <h5><em>Written in</em> HTML5, CSS3</h5>
+                <p>
+                    Here is an example of an assigment:
+                    <a href="webapps/yoko/index.html"><strong>Yoko's kitchen</strong></a>
+                </p>
+            </section>
+
+
         </section>
+
+        <section class="project">
+
+            <picture>
+                <source srcset="../images/project_vgdb.png" media="(min-width: 1367px)">
+                <source srcset="../images/project_vgdb_small.png">
+                <img src="../images/project_vgdb.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Fuzzy rulesystem for a racing simulation
+                </h4>
+                <h5><em>Written in</em> Java</h5>
+                <p>
+                    Fuzzy logic was introduced by Lotfi Zadeh in 1965. He proposed a new approach to causative computing, drawing the analogy with humans which usually reason in “fuzzy” terms. This project implements a fuzzy rule-based system using Zadeh's fuzzy logic, including a practical application – the fuzzy car controller. It parses sensorial data and predefined rules to allow a race-car to navigate a simplified race track autonomously.
+                </p>
+                <a href="https://github.com/JasperDhaene/project-vdb"><i class="fa fa-github"></i></a>
+
+            </section>
+
+
+        </section>
+
+        <section class="project">
+            <picture>
+                <source srcset="../images/itech_3.png" media="(min-width: 1367px)">
+                <source srcset="../images/itech_3_small.png">
+                <img src="../images/itech_3.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Semantic Search Engine
+                </h4>
+                <h5><em>Written in</em> Turtle, HTML/CSS, JavaScript and Ruby on Rails</h5>
+                <p>
+                    A simple content-based search engine that uses a custom Semantic Web ontology to query a predefined SPARQL endpoint.
+                </p>
+                <a href="https://github.com/JasperDhaene/itech-practicum3"><i class="fa fa-github"></i></a>
+            </section>
+        </section>
+
+        <section class="project">
+            <picture>
+                <source srcset="../images/itech_1_1.png" media="(min-width: 1367px)">
+                <source srcset="../images/itech_1_1_small.png">
+                <img src="../images/itech_1_1_small.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Back-end development: RESTful API
+                </h4>
+                <h5><em>Written in</em> Ruby on Rails</h5>
+                <p>
+                    A RESTful API with JSON representation for event management. A Ruby on Rails front-end was written to visualise the result.
+                </p>
+                <a href="https://github.com/JasperDhaene/itech-practicum1"><i class="fa fa-github"></i></a>
+            </section>
+        </section>
+
+        <section class="project">
+            <picture>
+                <source srcset="../images/itech_2_1.png" media="(min-width: 1367px)">
+                <source srcset="../images/itech_2_1_small.png">
+                <img src="../images/itech_2_1.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Front-end development: Android app
+                </h4>
+                <h5><em>Language:</em> Java</h5>
+                <p>
+                    An Android app using a RESTful API for event management.
+                </p>
+                <a href="https://github.com/JasperDhaene/itech-practicum2"><i class="fa fa-github"></i></a>
+            </section>
+        </section>
+
+        <h3>· 2014 ·</h3>
+
+        <section class="project">
+            <picture>
+                <source srcset="../images/project_soi_2_1.png" media="(min-width: 1367px)">
+                <source srcset="../images/project_soi_2_1_small.png">
+                <img src="../images/project_soi_2_1_small.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    ProcCopter
+                </h4>
+                <h5><em>Written in</em> C++</h5>
+                <p>
+                    A C++ implementation of the classic helicopter game, where the cave is procedurally generated based on the accompanying soundtrack.
+                </p>
+                <a href="https://github.com/JasperDhaene/project-soi_2"><i class="fa fa-github"></i></a>
+            </section>
+
+
+        </section>
+
+        <h3>· 2013 ·</h3>
+
+        <section class="project">
+            <picture>
+                <source srcset="../images/project_soi.png" media="(min-width: 1367px)">
+                <source srcset="../images/project_soi_small.png">
+                <img src="../images/project-soi_small.png">
+            </picture>
+            <section class="description">
+                <h4>
+                    Bust-a-Bubble
+                </h4>
+                <h5><em>Written in</em> C++</h5>
+                <p>
+                    A C++ implementation of the classic bubble shooter game, supporting both multiplayer and single player (utilizing a simple AI).
+                </p>
+                <a href="https://www.github.com/JasperDhaene/project-soi"><i class="fa fa-github"></i></a>
+
+            </section>
+        </section>
+
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#italent">iTalent</a></li>
@@ -305,24 +437,37 @@
                     HOBBIES
         !-->
 
-    <section id="hobbies">
+    <section id="hobbies" class="page">
         <h2>hOBBIES</h2>
         <section>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus tellus ac odio tristique finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et vehicula urna. Fusce sit amet tristique dui, nec dignissim nulla. Pellentesque sagittis malesuada tellus, vitae molestie ligula. Sed lorem velit, malesuada eu efficitur eget, cursus at enim. Nunc euismod viverra diam, et efficitur dolor volutpat vel.
-            </p>
-            <p>
-                Sed sed fermentum lacus. Ut enim diam, porttitor a nulla vel, lobortis porttitor tortor. Nam vestibulum tempor lacinia. Cras vulputate ultricies fermentum. Aenean egestas faucibus lectus, in sagittis tellus accumsan id. Cras vitae venenatis turpis. Proin eget lacus ut purus efficitur hendrerit ac a dui. Phasellus posuere lacus augue, id ultrices metus eleifend in. Aliquam felis lectus, scelerisque vitae dictum sed, viverra non quam. Integer euismod finibus venenatis. Etiam tristique, ipsum ac aliquam dictum, felis risus vestibulum arcu, non laoreet erat libero quis odio.
-            </p>
-            <p>
-                Ut facilisis sem vel sollicitudin congue. Curabitur et orci ex. Aliquam sed nibh eget ligula dapibus imperdiet. Quisque tincidunt auctor purus, nec vestibulum dolor venenatis sit amet. Fusce massa mi, interdum at turpis id, iaculis porttitor felis. Morbi suscipit, turpis dapibus pellentesque scelerisque, libero justo mattis massa, eget consequat mauris est et enim. Proin turpis nisl, faucibus vitae elit quis, venenatis vehicula diam. Quisque pharetra ac leo a malesuada. Proin quis risus aliquet, posuere lorem nec, iaculis metus. Fusce non eros justo. In commodo, ipsum eget commodo consequat, elit tortor consectetur nunc, vitae tempus erat ligula vitae neque. Nulla gravida eget nisl vitae hendrerit. Quisque sit amet venenatis turpis. Aenean felis nulla, commodo sed elit at, auctor pretium arcu. In mi justo, elementum et purus vitae, scelerisque bibendum diam.
-            </p>
-            <p>
-                Ut porttitor elementum ex, in vehicula diam fringilla vel. Sed et tincidunt erat. Sed id metus sed sem pulvinar sodales quis ac nunc. Pellentesque et tincidunt dui. Nam rutrum aliquam tortor, id tempus diam scelerisque non. Etiam vulputate accumsan eros, porta condimentum ante. Mauris at dolor diam. Aenean dui purus, eleifend in erat accumsan, laoreet pharetra erat. Quisque sed leo quis erat tempus consectetur in quis urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis, quam vel mattis tincidunt, tellus sem tristique tellus, ac semper tortor leo et mauris. Cras mollis nunc est, et venenatis lectus finibus non. Ut non elementum nisl.
-            </p>
-            <p>
-                Vestibulum in erat vitae erat eleifend dictum. Sed gravida scelerisque fringilla. Aliquam erat volutpat. Cras elit nisl, efficitur id iaculis id, porttitor at lectus. Praesent gravida dapibus erat, in blandit massa mollis sed. Proin a enim placerat, lacinia ante vel, ultricies lectus. Nulla facilisi. Donec et neque congue ligula euismod vehicula vel sed arcu. Suspendisse potenti. Vivamus posuere scelerisque euismod.
-            </p>
+            <ul>
+                <li>
+                    <picture>
+                        <source srcset="../images/longboard.png" media="(min-width: 1367px)">
+                        <source srcset="../images/longboard_small.png">
+                        <img src="../images/longboard_small.png">
+                    </picture>
+                    <section>
+                        <h4>Longboarding</h4>
+                        <p>
+                            Whether it's to get from point A to point B or for some tricks, I'm always down for some longboarding.
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <picture>
+                        <source srcset="../images/tv.png" media="(min-width: 1367px)">
+                        <source srcset="../images/tv_small.png">
+                        <img src="../images/tv_small.png">
+                    </picture>
+                    <section>
+                        <h4>Watching TV series and movies</h4>
+                        <p>
+                            I like watching TV. A lot. My favorite shows at the moment are Da Vinci's Demons, Flash and Scorpion. My favorite movies are... Well, i saw quite a lot of them, so i don't really keep track of my favorites.
+                        </p>
+                    </section>
+                </li>
+            </ul>
         </section>
         <ul>
             <li><a href="#about">About</a></li>
@@ -338,24 +483,21 @@
                     LINKS
         !-->
 
-    <section id="links">
+    <section id="links" class="page">
         <h2>lINKS</h2>
         <section>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus tellus ac odio tristique finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et vehicula urna. Fusce sit amet tristique dui, nec dignissim nulla. Pellentesque sagittis malesuada tellus, vitae molestie ligula. Sed lorem velit, malesuada eu efficitur eget, cursus at enim. Nunc euismod viverra diam, et efficitur dolor volutpat vel.
-            </p>
-            <p>
-                Sed sed fermentum lacus. Ut enim diam, porttitor a nulla vel, lobortis porttitor tortor. Nam vestibulum tempor lacinia. Cras vulputate ultricies fermentum. Aenean egestas faucibus lectus, in sagittis tellus accumsan id. Cras vitae venenatis turpis. Proin eget lacus ut purus efficitur hendrerit ac a dui. Phasellus posuere lacus augue, id ultrices metus eleifend in. Aliquam felis lectus, scelerisque vitae dictum sed, viverra non quam. Integer euismod finibus venenatis. Etiam tristique, ipsum ac aliquam dictum, felis risus vestibulum arcu, non laoreet erat libero quis odio.
-            </p>
-            <p>
-                Ut facilisis sem vel sollicitudin congue. Curabitur et orci ex. Aliquam sed nibh eget ligula dapibus imperdiet. Quisque tincidunt auctor purus, nec vestibulum dolor venenatis sit amet. Fusce massa mi, interdum at turpis id, iaculis porttitor felis. Morbi suscipit, turpis dapibus pellentesque scelerisque, libero justo mattis massa, eget consequat mauris est et enim. Proin turpis nisl, faucibus vitae elit quis, venenatis vehicula diam. Quisque pharetra ac leo a malesuada. Proin quis risus aliquet, posuere lorem nec, iaculis metus. Fusce non eros justo. In commodo, ipsum eget commodo consequat, elit tortor consectetur nunc, vitae tempus erat ligula vitae neque. Nulla gravida eget nisl vitae hendrerit. Quisque sit amet venenatis turpis. Aenean felis nulla, commodo sed elit at, auctor pretium arcu. In mi justo, elementum et purus vitae, scelerisque bibendum diam.
-            </p>
-            <p>
-                Ut porttitor elementum ex, in vehicula diam fringilla vel. Sed et tincidunt erat. Sed id metus sed sem pulvinar sodales quis ac nunc. Pellentesque et tincidunt dui. Nam rutrum aliquam tortor, id tempus diam scelerisque non. Etiam vulputate accumsan eros, porta condimentum ante. Mauris at dolor diam. Aenean dui purus, eleifend in erat accumsan, laoreet pharetra erat. Quisque sed leo quis erat tempus consectetur in quis urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis, quam vel mattis tincidunt, tellus sem tristique tellus, ac semper tortor leo et mauris. Cras mollis nunc est, et venenatis lectus finibus non. Ut non elementum nisl.
-            </p>
-            <p>
-                Vestibulum in erat vitae erat eleifend dictum. Sed gravida scelerisque fringilla. Aliquam erat volutpat. Cras elit nisl, efficitur id iaculis id, porttitor at lectus. Praesent gravida dapibus erat, in blandit massa mollis sed. Proin a enim placerat, lacinia ante vel, ultricies lectus. Nulla facilisi. Donec et neque congue ligula euismod vehicula vel sed arcu. Suspendisse potenti. Vivamus posuere scelerisque euismod.
-            </p>
+            <section>
+                <h4><a href="https://github.com/">Github</a></h4>
+                <p>This is a very helpful tool when you work on a project with other people, or just to keep track of changes you make on a personal project.</p>
+            </section>
+            <section>
+                <h4><a href="http://www.wired.co.uk/">Wired</a></h4>
+                <p>I think this is a great site to catch up on the latest news on technology.</p>
+            </section>
+            <section>
+                <h4><a href="http://www.webdesignerdepot.com/">Web Designer Depot</a></h4>
+                <p>Anyone interested in web design will appreciate the articles published here.</p>
+            </section>
         </section>
         <ul>
             <li><a href="#about">About</a></li>
