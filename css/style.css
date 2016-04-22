@@ -45,17 +45,49 @@ html {
       html body section.page h4 {
         font-size: 4em; }
       html body section.page h5 {
-        font-size: 3em; }
+        font-size: 1.5em; }
       html body section.page p {
         margin: 20px 0 0 0;
         font-size: 2em; }
-      html body section.page ul {
+      html body section.page section ul {
         padding: 0 0 0 30px;
         list-style: none;
         font-size: 1.5em; }
-        html body section.page ul strong {
+        html body section.page section ul strong {
           color: #fff247;
           font-size: 1.5em; }
+      html body section.page#about section picture {
+        width: 50%;
+        float: right;
+        text-align: center; }
+        html body section.page#about section picture img {
+          border-radius: 50%; }
+      html body section.page#about section p {
+        width: 50%; }
+      html body section.page#portfolio section.project {
+        margin: 50px 0 0 0; }
+        html body section.page#portfolio section.project h4 {
+          color: #fff247; }
+        html body section.page#portfolio section.project p {
+          width: 50%; }
+        html body section.page#portfolio section.project picture {
+          width: 50%;
+          text-align: center;
+          float: right;
+          clear: both; }
+      html body section.page#portfolio h3 {
+        text-decoration: none; }
+      html body section.page#hobbies section {
+        width: 50%; }
+      html body section.page#hobbies picture {
+        width: 50%;
+        text-align: center;
+        float: right;
+        clear: both; }
+        html body section.page#hobbies picture img {
+          border-radius: 50%; }
+      html body section.page#hobbies > ul li {
+        margin: 200px 0 0 0; }
       html body section.page nav {
         display: inline-block;
         float: right; }

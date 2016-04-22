@@ -47,7 +47,7 @@ html {
                 }
                 
                 h5 {
-                    font-size: 3em;
+                    font-size: 1.5em;
                 }
                 
                 
@@ -58,14 +58,75 @@ html {
                 }
                 
                 
-                ul {
-                    padding: 0 0 0 30px;
-                    list-style: none;
-                    strong{
-                        color: $bright-yellow;
+                section{// italent
+                     ul {
+                        padding: 0 0 0 30px;
+                        list-style: none;
+                        strong{
+                            color: $bright-yellow;
+                            font-size: 1.5em;
+                        }
                         font-size: 1.5em;
                     }
-                    font-size: 1.5em;
+                }
+                
+                
+                &#about section { //about
+                    picture {
+                        width: 50%;
+                        float: right;
+                        text-align: center;
+
+                        img{
+                            border-radius: 50%;
+                        }
+                        
+                    }
+                    p {
+                        width: 50%;
+                    }
+                    
+                }
+                
+                &#portfolio section.project {
+                    margin: 50px 0 0 0;
+                    h4 {
+                        color: $bright-yellow;
+                    }
+                    p {
+                        width: 50%;
+                    }
+                    picture {
+                        width: 50%;
+                        text-align: center;
+                        float: right;
+                        clear:both;
+                    }
+                }
+                
+                &#portfolio {
+                    h3{
+                        text-decoration: none;
+                    }
+                }
+                
+                &#hobbies {
+                    section {
+                        width: 50%;
+                    }
+                    picture {
+                        width: 50%;
+                        text-align: center;
+                        float: right;
+                        clear: both;
+                        img {
+                            border-radius: 50%;
+                        }
+                    }
+                    
+                    >ul li {
+                        margin: 200px 0 0 0;
+                    }
                 }
                 
                 nav {
