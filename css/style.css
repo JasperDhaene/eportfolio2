@@ -40,8 +40,7 @@ html {
         display: inline; }
       html body section.page h3 {
         font-size: 5em;
-        color: #ff4a48;
-        text-decoration: line-through; }
+        color: #ff4a48; }
       html body section.page h4 {
         font-size: 4em; }
       html body section.page h5 {
@@ -64,17 +63,19 @@ html {
           border-radius: 50%; }
       html body section.page#about section p {
         width: 50%; }
-      html body section.page#portfolio section.project {
-        margin: 50px 0 0 0; }
-        html body section.page#portfolio section.project h4 {
-          color: #fff247; }
-        html body section.page#portfolio section.project p {
-          width: 50%; }
-        html body section.page#portfolio section.project picture {
-          width: 50%;
-          text-align: center;
-          float: right;
-          clear: both; }
+      html body section.page#portfolio {
+        padding: 0 0 200px 0; }
+        html body section.page#portfolio section.project {
+          margin: 50px 0 0 0; }
+          html body section.page#portfolio section.project h4 {
+            color: #fff247; }
+          html body section.page#portfolio section.project p {
+            width: 50%; }
+          html body section.page#portfolio section.project picture {
+            width: 50%;
+            text-align: center;
+            float: right;
+            clear: both; }
       html body section.page#portfolio h3 {
         text-decoration: none; }
       html body section.page#hobbies section {
@@ -90,7 +91,8 @@ html {
         margin: 200px 0 0 0; }
       html body section.page nav {
         display: inline-block;
-        float: right; }
+        float: right;
+        clear: right; }
         html body section.page nav ul {
           list-style: none;
           color: #ff4a48;
