@@ -38,7 +38,7 @@ html {
                 
                 h3 {
                     font-size: 5em;
-                    color: $red;
+                    color: $red-accent;
                     //text-decoration: underline;
                     //text-decoration: line-through;
                 }
@@ -53,8 +53,7 @@ html {
                 
                 
                 p {
-                    margin: 20px 0 0 0;    
-                
+                    margin: 20px 0 0 0;
                     font-size: 2em;
                 }
                 
@@ -110,7 +109,7 @@ html {
                 
                 &#portfolio {
                     h3{
-                        margin: 50px 0 0 0;
+                        margin: 50px 0 0 0; 
                         text-decoration: none;
                     }
                 }
@@ -189,11 +188,15 @@ html {
                 }
                 
                 &#about{
-                    background-color: $pastel-green;
+                    //background-color: $pastel-green;
+                    background-color: $pastel-darkblue;
                 }
                 
                 &#italent{
-                    background-color: $pastel-blue;
+                    //background-color: $pastel-blue;
+                    background-color: $white;
+                    color: $pastel-darkblue;
+                    strong { color: $red;}
                 }
                 
                 &#CV{
