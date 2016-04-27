@@ -155,7 +155,7 @@ html {
                         }
                         
                         &.active a {
-                            color: $red-accent;
+                            color: $red-accent !important;
                         }
                     }
                     
@@ -215,10 +215,10 @@ html {
                     strong { color: $red;}
                     
                     a,a:visited{
-                        color: inherit;
+                        //color: inherit;
                     }
                     a:hover{
-                        color: $red;
+                        //color: $red;
                     }
                 }
 

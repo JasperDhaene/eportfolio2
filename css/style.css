@@ -136,7 +136,7 @@ html {
             color: #FA6775;
             text-decoration: none; }
           html body section.page nav ul li.active a {
-            color: #bb3230; }
+            color: #bb3230 !important; }
           html body section.page nav ul li:hover {
             text-decoration: line-through; }
       html body section.page div {
@@ -166,10 +166,6 @@ html {
       html body section.page#italent_full {
         background-color: #29343c; }
         html body section.page#italent_full strong {
-          color: #FA6775; }
-        html body section.page#italent_full a, html body section.page#italent_full a:visited {
-          color: inherit; }
-        html body section.page#italent_full a:hover {
           color: #FA6775; }
       html body section.page#CV {
         background-color: #808789; }
