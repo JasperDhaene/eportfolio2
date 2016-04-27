@@ -159,6 +159,18 @@ html {
         color: #29343c; }
         html body section.page#italent strong {
           color: #FA6775; }
+        html body section.page#italent a, html body section.page#italent a:visited {
+          color: inherit; }
+        html body section.page#italent a:hover {
+          color: #FA6775; }
+      html body section.page#italent_full {
+        background-color: #29343c; }
+        html body section.page#italent_full strong {
+          color: #FA6775; }
+        html body section.page#italent_full a, html body section.page#italent_full a:visited {
+          color: inherit; }
+        html body section.page#italent_full a:hover {
+          color: #FA6775; }
       html body section.page#CV {
         background-color: #808789; }
       html body section.page#portfolio {
@@ -167,5 +179,8 @@ html {
         background-color: #D5B986; }
       html body section.page#links {
         background-color: #A4B6C0; }
+@-moz-document url-prefix() {
+  html body section.page h1 {
+    font-size: 18em; } }
 
 /*# sourceMappingURL=style.css.map */

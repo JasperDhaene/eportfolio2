@@ -29,6 +29,8 @@ html {
                 h1 {
                     font-family: 'WC';
                     font-size: 22em; //20
+                    
+                    
                 }
                 h2 {
                     //font-family: 'BlackoutInverse';
@@ -197,7 +199,29 @@ html {
                     background-color: $white;
                     color: $pastel-darkblue;
                     strong { color: $red;}
+                    
+                    a,a:visited{
+                        color: inherit;
+                    }
+                    a:hover{
+                        color: $red;
+                    }
                 }
+                
+                &#italent_full{
+                    background-color: $pastel-darkblue;
+                    //background-color: $white;
+                    //color: $pastel-darkblue;
+                    strong { color: $red;}
+                    
+                    a,a:visited{
+                        color: inherit;
+                    }
+                    a:hover{
+                        color: $red;
+                    }
+                }
+
                 
                 &#CV{
                     background-color: $pastel-black;
@@ -212,6 +236,12 @@ html {
                     background-color: $pastel-blue;
                 }
                 
+                //FIREFOX SPECIFIC RULES
+                @-moz-document url-prefix() { 
+                      h1 {
+                         font-size: 18em;
+                      }
+                }
             }
         }
     
