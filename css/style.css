@@ -167,12 +167,27 @@ html {
         background-color: #29343c; }
         html body section.page#italent_full strong {
           color: #FA6775; }
+        html body section.page#italent_full h3 {
+          font-size: 5em;
+          color: #bb3230; }
+        html body section.page#italent_full h4 {
+          font-size: 4em;
+          color: #fff247; }
+        html body section.page#italent_full h5 {
+          font-size: 3em;
+          color: #FA6775; }
+        html body section.page#italent_full h6 {
+          font-size: 2em;
+          margin: 20px 0 0 20px; }
+        html body section.page#italent_full p {
+          margin: 20px 0 0 0;
+          font-size: 1.5em; }
       html body section.page#CV {
-        background-color: #808789; }
+        background-color: #A4B6C0; }
       html body section.page#portfolio {
         background-color: #29343c; }
       html body section.page#hobbies {
-        background-color: #D5B986; }
+        background-color: #808789; }
       html body section.page#links {
         background-color: #A4B6C0; }
 @-moz-document url-prefix() {
